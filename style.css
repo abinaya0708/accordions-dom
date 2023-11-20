@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container{
+    /* width:40%; */
+    margin:auto; 
+}
+.para {
+    display:none;
+}
+.active{
+    display: block;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+
+    padding-bottom: 2%;
+
+    border:1px solid pink;
+    box-shadow: 0 0 2px pink;
+}
+.card{
+    padding:3%;
+}
+.para{
+    background-color:rgb(247, 153, 169);
+    color:aliceblue;
+}
+.icon i{
+    color:rgb(236, 107, 128);
+}
